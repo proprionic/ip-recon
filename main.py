@@ -118,7 +118,8 @@ if from_file.lower() == "y":
     if do_scan.lower() == "y":
         if name == "nt":
             _ = system("cls")
-        system("clear")
+        else:
+            system("clear")
 
         for ip in ips:
             print(f"===== {ip} =====")
