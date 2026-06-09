@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Testing / coverage (se li userai dopo)
+.pytest_cache/
+.coverage
+
+# Env variables (se in futuro aggiungi API keys)
+.env
+.env.*
+
+# uv cache (opzionale ma consigliato)
+.uv/
