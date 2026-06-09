@@ -1,4 +1,3 @@
-from multiprocessing import Value
 
 import requests
 import json
